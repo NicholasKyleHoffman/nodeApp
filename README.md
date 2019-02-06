@@ -1,6 +1,6 @@
 [![Gymnasium Logo](https://gymnasium.github.io/cms/img/gymnasium-logo-gray.svg)](http://thegymnasium.com)
 
-# INTRODUCTION TO NODE.JS
+# ToDo nodeAPP - an intro to NodeJS
 
 **A free online course at the [Gymnasium](http://thegymnasium.com)**
 

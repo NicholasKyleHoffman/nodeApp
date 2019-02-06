@@ -8,7 +8,7 @@ var server = http.Server();
 server.on( 'request', function( request, response ) {
 	
 	// Response with a message
-	response.write( 'Hello World!' );
+	response.write( 'Helloawdawd World!' );
 	
 	// Send the repsonse
 	response.end();
