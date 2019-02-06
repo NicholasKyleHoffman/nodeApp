@@ -4,21 +4,9 @@
 
 **A free online course at the [Gymnasium](http://thegymnasium.com)**
 
-
----
-
-## About Gymnasium
-
-
-### Real World Skills
-
-Gymnasium offers free online courses designed to teach creative professionals in-demand skills. We know these skills are in demand because our clients tell us what they are looking for, but can't find.
-
-
-### Expert Instruction
-
-Our courses are all self-paced and taught by experienced practitioners with a passion for sharing practical lessons from the design trenches.
-
-### Career Opportunities
-
-Once you finish a course, you will be able to use your new skills in your current role, or use them to land a new job. **[We can even help with that!](http://aquent.com/find-work/?utm_source=thegymnasium&utm_medium=github&utm_campaign=readmejobs)**
+## Installation
+1. Download the 'nodeApp' repository at: https://github.com/NicholasKyleHoffman/nodeApp.git
+2. Install Node.JS if not already on your machine
+3. Install npm modules: `npm install`
+4. Navigate to project folder & start up the server: `node server.js`
+5. View in browser at http://localhost:1337 (If port 1337 is not working, check the 'server.js' file for the correct port)
