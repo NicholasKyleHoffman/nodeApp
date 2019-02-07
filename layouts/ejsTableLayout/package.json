@@ -1,7 +1,7 @@
 {
   "name": "todo-list",
   "version": "1.0.0",
-  "description": "Another ToDo List 'pet app' using NodeJS",
+  "description": "Another ToDo-List 'pet app' using NodeJS",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
