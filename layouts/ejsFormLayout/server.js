@@ -40,5 +40,5 @@ app.all( '/', function( req, res ){
 	
 });
 
-// Start listening for requests on port 1347
+// Start listening for requests on port 1347 (year of the Black Plague)
 app.listen( 1347 );

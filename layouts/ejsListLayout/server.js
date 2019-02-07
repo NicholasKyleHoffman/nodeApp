@@ -13,7 +13,7 @@ app.use( express.static( 'views' ) );
 // Respond to any requests from the browsers..
 app.all( '/', function( req, res ){
 	
-	// Render index.ejs using a predefined list of tasks
+	// Render index.ejs using a hardcoded list of tasks
 	res.render( 'index', {
 		tasks: [ 'Create Node.js App', 'Eat Dinner', '' ]
 	} );
