@@ -7,7 +7,7 @@
 ## Installation
 1. Download the 'nodeApp' repository at: https://github.com/NicholasKyleHoffman/nodeApp.git
 2. Install Node.JS if not already on your machine
-3. Install npm modules: `npm install`. Ensure that 'ejs' & 'express' are there.
+3. Install npm modules: `npm install`. Ensure that 'ejs', 'body-parser' & 'express' are there.
 4. Navigate to the 'layouts' project folder 
 5. Switch directories to either of the layouts & start up the server: `node server.js`
 6. View in browser at http://localhost:1337 (If port 1337 is not working, check the 'server.js' file for the correct port)
