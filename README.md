@@ -5,7 +5,7 @@
 **A free online course at the [Gymnasium](http://thegymnasium.com)**
 
 ## Installation
-1. Download the 'nodeToDoApp' repository at: https://github.com/NicholasKyleHoffman/nodeApp.git
+1. Download the 'nodeToDoApp' repository at: https://github.com/NicholasKyleHoffman/nodeToDoApp.git
 2. Install Node.JS if not already on your machine
 3. Install npm modules: `npm install`. Ensure that 'ejs' & 'express' are there.
 4. Navigate to the 'layouts' project folder 
