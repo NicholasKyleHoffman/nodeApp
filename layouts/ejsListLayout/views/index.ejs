@@ -7,13 +7,27 @@
 
 	<h1>ToDo List Layout - NodeJS</h1>
 	
-	<h4>Note that List is Static</h4>
+	<h4>This is an 'Uneditable' Table To Display Hardcoded Tasks</h4>
 	
-	<ol>
+	<table style="border:solid;5px;" id="tableDataDisplay">
 		<% for( var i in tasks ) { %>
-		<li><input type="text" name="tasks[]" value="<%= tasks[ i ]; %>" /></li>
+		<tr>
+			<td style="border:solid;3px;"><%=tasks[i]; %></td>
+		</tr>
 		<% } %>
-	</ol>
+	</table>
+
+	<h4>This is an 'Editable' Table of Input's as TableData To Display Hardcoded Tasks</h4>
+
+	<table id="tableOfInputs">
+		<% for( var i in tasks ) { %>
+		<tr>
+			<td>
+			<input type="text" name="tasks[]" value="<%= tasks[ i ]; %>" />
+			</td>
+		</tr>
+		<% } %>
+	</table>
 	
 </body>
 </html>

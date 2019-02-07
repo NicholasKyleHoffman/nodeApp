@@ -15,7 +15,7 @@ app.all( '/', function( req, res ){
 	
 	// Render index.ejs using a hardcoded list of tasks
 	res.render( 'index', {
-		tasks: [ 'Create Node.js App', 'Eat Dinner', '' ]
+		tasks: [ 'Create Node.js App', 'Modify table', '' ]
 	} );
 	
 });
